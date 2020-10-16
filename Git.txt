@@ -1,0 +1,8 @@
+git init -- launch git
+git log --- see log
+git branch --  shows the branch currently in
+git branch big -- creates a branch called big
+git status --  for status  
+git checkout -b "Ver2" -- creates a branch called Ver2
+git remote add origin https://github.com/hektor007/Tutorials2.git or "server url"
+git push -u origin Branch name -- push a branch to git
