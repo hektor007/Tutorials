@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Tv Station</title>
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="bootstrap-solid.svg" width="30" height="30" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Home
+                     <span class="sr-only">(current)</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="page2.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="Vue/Vue.html">Vue Project</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Page Content -->
+      <!--- (d-flex justify-content-center) align-content-center used to justify boostrap contents --->
+      <div class="container">
+         <div class="row mt-5">
+            <div class="col-6">
+               <img  src="images/pic_bulboff.gif" id="image" width=100px;>
+               <img src="images/pic_bulboff.gif" id="image" width=100px;>
+            </div>
+            <div class="col-6 ">
+               <div class="card">
+                  <h5 class="card-header">Age Calculator</h5>
+                  <div class="card-body">
+                     <h5 class="card-title">What year were you born?</h5>
+                     <input type="date" class="form-control" id="birthDate">
+                     <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                     <br>
+                     <a onclick="getAge()" class="btn btn-primary">Calculate</a>
+                     <p class=card-text id="mile"></p>
+                     <p class=card-text id="testing"></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row d-flex justify-content-center mt-3">
+            <div class="col-sm align-self-center ">
+               <button class="btn btn-primary btn-sm " type="button" onclick=changeImage()>
+               LIGHT UP</button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-6">
+               <p id="array"></p>
+               <p id = "helpo"></p>
+            </div>
+            <div class = "col-6">
+               <div class="card">
+                  <h5 class="card-header">Add Items to your list</h5>
+                  <div class="card-body">
+                     <h5 class="card-title">What year were you born?</h5>
+                     <input type="text" class="form-control" id="carName">
+                     <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                     <br>
+                     <a onclick="addCars()" class="btn btn-primary">ADD CAR</a>
+                     <a onclick="removeArray()" class="btn btn-primary">Remove Buttom</a>
+                     <a onclick="removeTop()" class="btn btn-primary">Remove Top</a>
+                     <a onclick="addTop()" class="btn btn-primary">ADD Top</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+          
+         <div class="row">
+            <div class="col-6">
+               <p id="ForStyle"></p>
+               <a onclick="remove()" class="btn btn-primary">Remove</a>
+               <a onclick="Random()" class="btn btn-primary">Random</a>
+            </div>
+            <div class = "col-6">
+               <div class="card">
+                  <h5 class="card-header">Date</h5>
+                  <div class="card-body">
+                     <p id = "date"></p>
+                      <p id = "date2">rr</p>
+                      <p id = "boygood">rr</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Bootstrap core JavaScript -->
+       
+      <script src="vendor/jquery/jquery.slim.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendor/bootstrap/js/myJs.js"></script>
+   </body>
+</html>
