@@ -47,3 +47,6 @@ git rm filename
 
 //View git remote connection
 git remote -v
+
+//GIT PULL
+git pull <remote name> --> gets content from rep
