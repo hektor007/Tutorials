@@ -1,8 +1,49 @@
 git init -- launch git
 git log --- see log
+
 git branch --  shows the branch currently in
-git branch big -- creates a branch called big
+
+
+//creates a branch called big
+git branch big
+
 git status --  for status  
 git checkout -b "Ver2" -- creates a branch called Ver2
-git remote add origin https://github.com/hektor007/Tutorials2.git or "server url"
-git push -u origin Branch name -- push a branch to git
+
+
+git push -u origin Branchname -- push a branch to git
+
+//Switching branches 
+
+git checkout Branchname
+
+
+//Cloning 
+
+git clone https://github.com/hektor007/Tutorials2.git
+
+//fetching
+git fetch <remote> <branch>
+
+
+//comitting
+
+git commit -m "message"
+
+//deleting branches 
+git branch -d branchname
+
+//restore files from staged and unstaged
+git restore --staged filename
+git restore filename --> for unstaged
+
+
+//Add and Delete Remote connection
+git remote add origin(connection name) https://github.com/hektor007/Tutorials2.git or "server url"
+git remote rm <name>
+
+//remove file from staged 
+git rm filename
+
+//View git remote connection
+git remote -v
