@@ -234,7 +234,7 @@ function getAge() {
     var realDate = parseInt(collectDate, 10);
     var age = year - realDate;
     if (birthDate === "") {
-       window.alert("PICK A DATE")
+       window.alert("Bastard")
     
     }/** else if (age < 1) {
          document.getElementById("mile").innerHTML = "Too Young";

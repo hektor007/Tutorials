@@ -48,5 +48,5 @@ git rm filename
 //View git remote connection
 git remote -v
 
-//GIT PULL
+//GIT PULL(used to update branches)
 git pull <remote name> --> gets content from rep
