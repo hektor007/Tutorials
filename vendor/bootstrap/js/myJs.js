@@ -8,74 +8,67 @@ Example
 document.getElementById('demo2').style.fontSize = '50px';
 */
 
-
+//JavaScript used to changed HTML content
 function changeImage() {
     document.getElementById('image').src = 'images/pic_bulbon.gif';
 }   
 
 
-/* JAVASCRIPT DISPLAY POSSIBILITIES
+/* JavaScript possibilities
 Writing into an HTML element, using .innerHTML
 Writing into the HTML output using document.write().
 Writing into an alert box, using window.alert().
 Writing into the browser console, using console.log().
 */
 
-//simple javascript function
+//Simple javascript function
 function calculateAge(aa) {
     var d = new Date();
     var year = d.getFullYear();   
     return year - aa;
 }
 
-
-
-//using a function as a variable
-function boss() {
-document.getElementById('myage').innerHTML = "i am" + " " + calculateAge(1996);
-}
-
-
 /* 
-+= OPERATOR ADDS VALUE TO A VARIABLE
--= USED TO SUBTRACT VALUE FROM A VARIABLE
-/= USED TO DIVIDE A VARIABLE 
-var ++ ADDS VALUE TO A NUMBER BY 1
-var -- REDUCES VALE OF A NUMBER BY 1
++= Adds value to variable
+-= Subtracts value from variable
+/= Divides a variable 
+var ++ adds value of 1
+var -- reduces value by 1
 */
 
 var a = 3;
-a += 10;
+a += 10; // Adds 10 to a
 var b = 11;
-b--;
-
+b--; // Removes 1 from b
 console.log(a);
 
 /*JAVASCRIPT LOGICAL OPERATORS
   ! NOT 
   && AND 
   || OR
-  
   TYPE OPERATORS
 typeof - Returns the type of a variable
 instanceof - Returns true if an object is an instance of an object type
 */
 
 
-//CREATION OF JAVASCRIPT OBJECTS
+//JavaScript Objects
 var Brother = {name: "Inatimi",
            age: 40,
            gender: "Male",
            occupation:"real estate"};
 
 
-//example of a functions used in objects and function as an object variable
+//Function used as a variable
 var Self = {firstName: "Nengi",
              lastName: "Fenibo",
             age: calculateAge(1996),
             occupation: "Web developer"};
 
-                         
+//Using a function as a variable
+function boss() {
+document.getElementById('myage').innerHTML = "i am" + " " + calculateAge(1996);
+}                        
 
 /* STRINGS AND STRING MTHODS IN JAVASCRIPT
 string.search()
@@ -89,7 +82,6 @@ string.toUpperCase()
 
 Finding the position of string properties
 Both methods accept a second parameter as the starting position for the search: 
-
 
 meaning: if the second parameter is 15, the search starts at position 15, and 
 searches to the beginning of the string.
@@ -107,9 +99,9 @@ var lastletter = n.lastIndexOf("Nigeria"); // lastIndexOf() DISPLAYS SHOWS THE L
 var fbi = n.search('Nigeria');
 
 //replace string method
-
 n = n.replace ("Nigeria", "Canada");
 
+//NOTE: sring.indexOf() and string.search() perform same functions but are different.
 
 //cutting  string using slice command
 var statement = "My name is onengiyeofori Fenibo";
@@ -489,6 +481,7 @@ function Random() {
     
     document.getElementById('ForStyle').innerHTML = text10;
 }
+
 
 //ARRAY.MAP() create an array function and map it to an existing array to create another
 
