@@ -128,24 +128,24 @@ var trimmed = statement.trim();
 var mmm = statement.charAt(3);
 var bbb = statement.indexOf("of"); // null values display -1
 
-
 //CONVERTING STRING TO ARRAY
 var shoutout = "Thanks for the follow";
+
+//string.split(" ") converts strings to arrays
 var shoutarray = shoutout.split(" "); // .split(","); will split by commas. This command currently splits by spaces. 
 
-
+//array.join(" ") converts arrays to string (" ") being the stated seprator.
 var bac = shoutarray.join(" ");
 
-
+console.log(shoutarray);
 // finding out the length of an array
-
-//array.length
 
 
 // Example of a boolean
 var compa = (a != b);
 
 console.log(compa);
+
 //NUMBERS AND NUMBER METHODS
 
 // .tofixed() returns a string with specified decimal places.
