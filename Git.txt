@@ -10,8 +10,8 @@ git branch big
 git status --  for status  
 git checkout -b "Ver2" -- creates a branch called Ver2
 
-
-git push -u origin Branchname -- push a branch to git
+//push a branch to git
+git push -u origin Branchname 
 
 //Switching branches 
 
